@@ -25,6 +25,13 @@ Using Pandas we read in the individual csv files and found discrepancies in colu
 * Construction?
 * Highway accidents vs neighborhood accidents vs city accidents
 * Predicting likelihood of crash depending on time of day
-* 
+* Seeing if weather impacts the severity of an accident
+
+
+------
+
+## How will we Present the Data?
+
+The idea is to run our data through a Machine Learning algorithm and then to load that into Tableau. We would then show our findings overlaid on a map of Nashville.
 
 
