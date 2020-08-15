@@ -1,0 +1,616 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}/Users/aq/Documents/Homework/FinalProject/analysis_log.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}10 Aug 2020, 21:56:23
+
+{com}. do "/var/folders/y6/wpnmw2d96hv16y_6wrs5tjsm0000gn/T//SD07005.000000"
+{txt}
+{com}. tabulate zip year
+
+           {txt}{c |}                          Year
+       ZIP {c |}      2015       2016       2017       2018       2019 {c |}     Total
+{hline 11}{c +}{hline 55}{c +}{hline 10}
+     37013 {c |}{res}     2,707      3,141      3,150      3,014      3,437 {txt}{c |}{res}    15,449 
+{txt}     37015 {c |}{res}         2         10          8          3          7 {txt}{c |}{res}        30 
+{txt}     37027 {c |}{res}       311        369        363        340        297 {txt}{c |}{res}     1,680 
+{txt}     37072 {c |}{res}       209        185        182        200        169 {txt}{c |}{res}       945 
+{txt}     37076 {c |}{res}     1,036      1,190      1,163      1,225      1,069 {txt}{c |}{res}     5,683 
+{txt}     37080 {c |}{res}       196        203        238        249        213 {txt}{c |}{res}     1,099 
+{txt}     37115 {c |}{res}     2,054      2,207      2,138      2,160      2,149 {txt}{c |}{res}    10,708 
+{txt}     37122 {c |}{res}         3          3          2          5          5 {txt}{c |}{res}        18 
+{txt}     37135 {c |}{res}        16         29         32         25         32 {txt}{c |}{res}       134 
+{txt}     37138 {c |}{res}       272        281        333        286        275 {txt}{c |}{res}     1,447 
+{txt}     37143 {c |}{res}        15         18         24         22         12 {txt}{c |}{res}        91 
+{txt}     37189 {c |}{res}       283        302        378        353        405 {txt}{c |}{res}     1,721 
+{txt}     37201 {c |}{res}       412        450        452        514        460 {txt}{c |}{res}     2,288 
+{txt}     37203 {c |}{res}     2,410      2,730      2,721      2,808      2,838 {txt}{c |}{res}    13,507 
+{txt}     37204 {c |}{res}       944      1,086      1,218      1,137      1,049 {txt}{c |}{res}     5,434 
+{txt}     37205 {c |}{res}       622        781        744        764        766 {txt}{c |}{res}     3,677 
+{txt}     37206 {c |}{res}       992      1,043      1,100      1,106      1,079 {txt}{c |}{res}     5,320 
+{txt}     37207 {c |}{res}     2,746      2,576      2,498      2,621      2,665 {txt}{c |}{res}    13,106 
+{txt}     37208 {c |}{res}     1,014      1,119      1,065      1,119      1,193 {txt}{c |}{res}     5,510 
+{txt}     37209 {c |}{res}     1,429      1,559      1,584      1,593      1,598 {txt}{c |}{res}     7,763 
+{txt}     37210 {c |}{res}     2,712      2,426      2,646      2,676      2,820 {txt}{c |}{res}    13,280 
+{txt}     37211 {c |}{res}     3,135      3,423      3,449      3,467      3,467 {txt}{c |}{res}    16,941 
+{txt}     37212 {c |}{res}       765        825        821        750        652 {txt}{c |}{res}     3,813 
+{txt}     37213 {c |}{res}       374        405        546        580        533 {txt}{c |}{res}     2,438 
+{txt}     37214 {c |}{res}     1,558      1,610      1,643      1,469      1,624 {txt}{c |}{res}     7,904 
+{txt}     37215 {c |}{res}       730        772        753        710        686 {txt}{c |}{res}     3,651 
+{txt}     37216 {c |}{res}       519        552        576        544        542 {txt}{c |}{res}     2,733 
+{txt}     37217 {c |}{res}     1,579      1,710      1,794      1,768      1,731 {txt}{c |}{res}     8,582 
+{txt}     37218 {c |}{res}       522        574        615        608        592 {txt}{c |}{res}     2,911 
+{txt}     37219 {c |}{res}       232        193        220        215        222 {txt}{c |}{res}     1,082 
+{txt}     37220 {c |}{res}       560        683        662        632        562 {txt}{c |}{res}     3,099 
+{txt}     37221 {c |}{res}       750        816        838        819        777 {txt}{c |}{res}     4,000 
+{txt}     37228 {c |}{res}       140        159        158        194        193 {txt}{c |}{res}       844 
+{txt}     37240 {c |}{res}         8          7          3          4          5 {txt}{c |}{res}        27 
+{txt}{hline 11}{c +}{hline 55}{c +}{hline 10}
+     Total {c |}{res}    31,257     33,437     34,117     33,980     34,124 {txt}{c |}{res}   166,915 
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "/var/folders/y6/wpnmw2d96hv16y_6wrs5tjsm0000gn/T//SD07005.000000"
+{txt}
+{com}. tabulate precinct year, col
+{txt}
+{c TLC}{hline 19}{c TRC}
+{c |} Key{col 21}{c |}
+{c LT}{hline 19}{c RT}
+{c |}{space 5}{it:frequency}{col 21}{c |}
+{c |}{space 1}{it:column percentage}{col 21}{c |}
+{c BLC}{hline 19}{c BRC}
+
+           {c |}                          Year
+  Precinct {c |}      2015       2016       2017       2018       2019 {c |}     Total
+{hline 11}{c +}{hline 55}{c +}{hline 10}
+    CENTRA {c |}{res}     2,507      2,659      2,885      3,155      3,083 {txt}{c |}{res}    14,289 
+           {txt}{c |}{res}      8.02       7.95       8.45       9.28       9.03 {txt}{c |}{res}      8.56 
+{txt}{hline 11}{c +}{hline 55}{c +}{hline 10}
+      EAST {c |}{res}     2,918      2,884      2,846      2,862      2,860 {txt}{c |}{res}    14,370 
+           {txt}{c |}{res}      9.34       8.63       8.34       8.42       8.38 {txt}{c |}{res}      8.61 
+{txt}{hline 11}{c +}{hline 55}{c +}{hline 10}
+    HERMIT {c |}{res}     5,373      5,327      5,617      5,324      5,546 {txt}{c |}{res}    27,187 
+           {txt}{c |}{res}     17.19      15.93      16.46      15.65      16.24 {txt}{c |}{res}     16.28 
+{txt}{hline 11}{c +}{hline 55}{c +}{hline 10}
+    MADISO {c |}{res}     2,731      2,846      2,797      2,896      2,828 {txt}{c |}{res}    14,098 
+           {txt}{c |}{res}      8.74       8.51       8.19       8.52       8.28 {txt}{c |}{res}      8.44 
+{txt}{hline 11}{c +}{hline 55}{c +}{hline 10}
+    MIDTOW {c |}{res}     5,199      5,894      5,927      5,642      5,306 {txt}{c |}{res}    27,968 
+           {txt}{c |}{res}     16.63      17.63      17.36      16.59      15.54 {txt}{c |}{res}     16.75 
+{txt}{hline 11}{c +}{hline 55}{c +}{hline 10}
+     NORTH {c |}{res}     3,035      3,289      3,392      3,464      3,626 {txt}{c |}{res}    16,806 
+           {txt}{c |}{res}      9.71       9.84       9.94      10.19      10.62 {txt}{c |}{res}     10.06 
+{txt}{hline 11}{c +}{hline 55}{c +}{hline 10}
+     SOUTH {c |}{res}     6,547      7,215      7,347      7,302      7,646 {txt}{c |}{res}    36,057 
+           {txt}{c |}{res}     20.95      21.58      21.52      21.47      22.39 {txt}{c |}{res}     21.59 
+{txt}{hline 11}{c +}{hline 55}{c +}{hline 10}
+      WEST {c |}{res}     2,945      3,320      3,323      3,364      3,252 {txt}{c |}{res}    16,204 
+           {txt}{c |}{res}      9.42       9.93       9.74       9.89       9.52 {txt}{c |}{res}      9.70 
+{txt}{hline 11}{c +}{hline 55}{c +}{hline 10}
+     Total {c |}{res}    31,255     33,434     34,134     34,009     34,147 {txt}{c |}{res}   166,979 
+           {txt}{c |}{res}    100.00     100.00     100.00     100.00     100.00 {txt}{c |}{res}    100.00 
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "/var/folders/y6/wpnmw2d96hv16y_6wrs5tjsm0000gn/T//SD07005.000000"
+{txt}
+{com}. table precinct, contents(mean numberofmotorvehicles) 
+
+{txt}{hline 10}{c TT}{hline 15}
+ Precinct {c |} mean(number~s)
+{hline 10}{c +}{hline 15}
+   CENTRA {c |}        {res}1.97942
+     {txt}EAST {c |}        {res}1.95616
+   {txt}HERMIT {c |}        {res}1.95457
+   {txt}MADISO {c |}        {res}1.91963
+   {txt}MIDTOW {c |}        {res}2.00647
+    {txt}NORTH {c |}        {res}1.88933
+    {txt}SOUTH {c |}        {res}1.97046
+     {txt}WEST {c |}        {res}1.91465
+{txt}{hline 10}{c BT}{hline 15}
+
+{com}. table precinct, contents(mean numberoffatalities) 
+
+{txt}{hline 10}{c TT}{hline 15}
+ Precinct {c |} mean(number~s)
+{hline 10}{c +}{hline 15}
+   CENTRA {c |}         {res}.00217
+     {txt}EAST {c |}        {res}.003271
+   {txt}HERMIT {c |}        {res}.002943
+   {txt}MADISO {c |}        {res}.004682
+   {txt}MIDTOW {c |}        {res}.002396
+    {txt}NORTH {c |}        {res}.003928
+    {txt}SOUTH {c |}        {res}.003911
+     {txt}WEST {c |}        {res}.001358
+{txt}{hline 10}{c BT}{hline 15}
+
+{com}. table precinct, contents(mean numberofinjuries) 
+
+{txt}{hline 10}{c TT}{hline 15}
+ Precinct {c |} mean(number~s)
+{hline 10}{c +}{hline 15}
+   CENTRA {c |}        {res}.308419
+     {txt}EAST {c |}        {res}.369102
+   {txt}HERMIT {c |}        {res}.391989
+   {txt}MADISO {c |}        {res}.435168
+   {txt}MIDTOW {c |}        {res}.347326
+    {txt}NORTH {c |}        {res}.394204
+    {txt}SOUTH {c |}        {res}.404914
+     {txt}WEST {c |}        {res}.356825
+{txt}{hline 10}{c BT}{hline 15}
+
+{com}. 
+{txt}end of do-file
+
+{com}. do "/var/folders/y6/wpnmw2d96hv16y_6wrs5tjsm0000gn/T//SD07005.000000"
+{txt}
+{com}. tab injuries_cat 
+
+{txt}injuries_ca {c |}
+          t {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}    122,752       73.04       73.04
+{txt}          1 {c |}{res}     45,312       26.96      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}    168,064      100.00
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "/var/folders/y6/wpnmw2d96hv16y_6wrs5tjsm0000gn/T//SD07005.000000"
+{txt}
+{com}. tab fatalities_cat 
+
+{txt}fatalities_ {c |}
+        cat {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}    167,559       99.70       99.70
+{txt}          1 {c |}{res}        505        0.30      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}    168,064      100.00
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "/var/folders/y6/wpnmw2d96hv16y_6wrs5tjsm0000gn/T//SD07005.000000"
+{txt}
+{com}. tab weather_cat
+
+{txt}weather_cat {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          1 {c |}{res}    118,917       70.76       70.76
+{txt}          2 {c |}{res}     49,147       29.24      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}    168,064      100.00
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "/var/folders/y6/wpnmw2d96hv16y_6wrs5tjsm0000gn/T//SD07005.000000"
+{txt}
+{com}. tab injuries_cat weather_cat, col
+{txt}
+{c TLC}{hline 19}{c TRC}
+{c |} Key{col 21}{c |}
+{c LT}{hline 19}{c RT}
+{c |}{space 5}{it:frequency}{col 21}{c |}
+{c |}{space 1}{it:column percentage}{col 21}{c |}
+{c BLC}{hline 19}{c BRC}
+
+injuries_c {c |}      weather_cat
+        at {c |}         1          2 {c |}     Total
+{hline 11}{c +}{hline 22}{c +}{hline 10}
+         0 {c |}{res}    86,768     35,984 {txt}{c |}{res}   122,752 
+           {txt}{c |}{res}     72.97      73.22 {txt}{c |}{res}     73.04 
+{txt}{hline 11}{c +}{hline 22}{c +}{hline 10}
+         1 {c |}{res}    32,149     13,163 {txt}{c |}{res}    45,312 
+           {txt}{c |}{res}     27.03      26.78 {txt}{c |}{res}     26.96 
+{txt}{hline 11}{c +}{hline 22}{c +}{hline 10}
+     Total {c |}{res}   118,917     49,147 {txt}{c |}{res}   168,064 
+           {txt}{c |}{res}    100.00     100.00 {txt}{c |}{res}    100.00 
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "/var/folders/y6/wpnmw2d96hv16y_6wrs5tjsm0000gn/T//SD07005.000000"
+{txt}
+{com}. tab light_cat 
+
+  {txt}light_cat {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          1 {c |}{res}    118,049       70.24       70.24
+{txt}          2 {c |}{res}     50,015       29.76      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}    168,064      100.00
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "/var/folders/y6/wpnmw2d96hv16y_6wrs5tjsm0000gn/T//SD07005.000000"
+{txt}
+{com}. tab illumination light_cat if light_cat == 0
+{txt}no observations
+
+{com}. 
+{txt}end of do-file
+
+{com}. do "/var/folders/y6/wpnmw2d96hv16y_6wrs5tjsm0000gn/T//SD07005.000000"
+{txt}
+{com}. regress numberofinjuries numberoffatalities
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}   168,051
+{txt}{hline 13}{c +}{hline 34}   F(1, 168049)    = {res} 28838.79
+{txt}       Model {c |} {res} 13857.1938         1  13857.1938   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 80748.4476   168,049  .480505374   {txt}R-squared       ={res}    0.1465
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.1465
+{txt}       Total {c |} {res} 94605.6414   168,050   .56296127   {txt}Root MSE        =   {res} .69318
+
+{txt}{hline 19}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}  numberofinjuries{col 20}{c |}      Coef.{col 32}   Std. Err.{col 44}      t{col 52}   P>|t|{col 60}     [95% Con{col 73}f. Interval]
+{hline 19}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+numberoffatalities {c |}{col 20}{res}{space 2} 4.836626{col 32}{space 2} .0284809{col 43}{space 1}  169.82{col 52}{space 3}0.000{col 60}{space 4} 4.780804{col 73}{space 3} 4.892448
+{txt}{space 13}_cons {c |}{col 20}{res}{space 2} .3626792{col 32}{space 2} .0016933{col 43}{space 1}  214.19{col 52}{space 3}0.000{col 60}{space 4} .3593605{col 73}{space 3}  .365998
+{txt}{hline 19}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. regress numberofinjuries numberofmotorvehicles 
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}   168,063
+{txt}{hline 13}{c +}{hline 34}   F(1, 168061)    = {res}  2350.79
+{txt}       Model {c |} {res} 1342.60561         1  1342.60561   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 95984.6318   168,061   .57112972   {txt}R-squared       ={res}    0.0138
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0138
+{txt}       Total {c |} {res} 97327.2374   168,062  .579115073   {txt}Root MSE        =   {res} .75573
+
+{txt}{hline 22}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}     numberofinjuries{col 23}{c |}      Coef.{col 35}   Std. Err.{col 47}      t{col 55}   P>|t|{col 63}     [95% Con{col 76}f. Interval]
+{hline 22}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+numberofmotorvehicles {c |}{col 23}{res}{space 2} .1589996{col 35}{space 2} .0032794{col 46}{space 1}   48.48{col 55}{space 3}0.000{col 63}{space 4} .1525721{col 76}{space 3} .1654271
+{txt}{space 16}_cons {c |}{col 23}{res}{space 2} .0679241{col 35}{space 2} .0066707{col 46}{space 1}   10.18{col 55}{space 3}0.000{col 63}{space 4} .0548497{col 76}{space 3} .0809985
+{txt}{hline 22}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. regress numberoffatalities numberofmotorvehicles 
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}   168,050
+{txt}{hline 13}{c +}{hline 34}   F(1, 168048)    = {res}  1026.44
+{txt}       Model {c |} {res} 3.59623268         1  3.59623268   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 588.769873   168,048  .003503582   {txt}R-squared       ={res}    0.0061
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0061
+{txt}       Total {c |} {res} 592.366105   168,049  .003524961   {txt}Root MSE        =   {res} .05919
+
+{txt}{hline 22}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}   numberoffatalities{col 23}{c |}      Coef.{col 35}   Std. Err.{col 47}      t{col 55}   P>|t|{col 63}     [95% Con{col 76}f. Interval]
+{hline 22}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+numberofmotorvehicles {c |}{col 23}{res}{space 2} .0082355{col 35}{space 2} .0002571{col 46}{space 1}   32.04{col 55}{space 3}0.000{col 63}{space 4} .0077317{col 76}{space 3} .0087394
+{txt}{space 16}_cons {c |}{col 23}{res}{space 2}-.0129809{col 35}{space 2} .0005228{col 46}{space 1}  -24.83{col 55}{space 3}0.000{col 63}{space 4}-.0140056{col 76}{space 3}-.0119562
+{txt}{hline 22}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "/var/folders/y6/wpnmw2d96hv16y_6wrs5tjsm0000gn/T//SD07005.000000"
+{txt}
+{com}. logit injuries_cat light_cat
+
+{res}{txt}Iteration 0:{space 3}log likelihood = {res: -97959.82}  
+Iteration 1:{space 3}log likelihood = {res: -97874.72}  
+Iteration 2:{space 3}log likelihood = {res:-97874.681}  
+Iteration 3:{space 3}log likelihood = {res:-97874.681}  
+{res}
+{txt}Logistic regression{col 49}Number of obs{col 67}= {res}   168,064
+{txt}{col 49}LR chi2({res}1{txt}){col 67}= {res}    170.28
+{txt}{col 49}Prob > chi2{col 67}= {res}    0.0000
+{txt}Log likelihood = {res}-97874.681{txt}{col 49}Pseudo R2{col 67}= {res}    0.0009
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}injuries_cat{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      z{col 46}   P>|z|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 3}light_cat {c |}{col 14}{res}{space 2} .1554874{col 26}{space 2} .0118665{col 37}{space 1}   13.10{col 46}{space 3}0.000{col 54}{space 4} .1322294{col 67}{space 3} .1787454
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2}-1.199508{col 26}{space 2} .0165159{col 37}{space 1}  -72.63{col 46}{space 3}0.000{col 54}{space 4}-1.231879{col 67}{space 3}-1.167137
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{com}. logit fatalities_cat light_cat
+
+{res}{txt}Iteration 0:{space 3}log likelihood = {res:-3437.0491}  
+Iteration 1:{space 3}log likelihood = {res:-3430.3105}  
+Iteration 2:{space 3}log likelihood = {res:-3430.2274}  
+Iteration 3:{space 3}log likelihood = {res:-3430.2274}  
+{res}
+{txt}Logistic regression{col 49}Number of obs{col 67}= {res}   168,064
+{txt}{col 49}LR chi2({res}1{txt}){col 67}= {res}     13.64
+{txt}{col 49}Prob > chi2{col 67}= {res}    0.0002
+{txt}Log likelihood = {res}-3430.2274{txt}{col 49}Pseudo R2{col 67}= {res}    0.0020
+
+{txt}{hline 15}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}fatalities_cat{col 16}{c |}      Coef.{col 28}   Std. Err.{col 40}      z{col 48}   P>|z|{col 56}     [95% Con{col 69}f. Interval]
+{hline 15}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 5}light_cat {c |}{col 16}{res}{space 2} .3458873{col 28}{space 2} .0921093{col 39}{space 1}    3.76{col 48}{space 3}0.000{col 56}{space 4} .1653564{col 69}{space 3} .5264182
+{txt}{space 9}_cons {c |}{col 16}{res}{space 2} -6.26632{col 28}{space 2} .1341763{col 39}{space 1}  -46.70{col 48}{space 3}0.000{col 56}{space 4}  -6.5293{col 69}{space 3}-6.003339
+{txt}{hline 15}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{com}. 
+{txt}end of do-file
+
+{com}. do "/var/folders/y6/wpnmw2d96hv16y_6wrs5tjsm0000gn/T//SD07005.000000"
+{txt}
+{com}. scatter day_num injuries_cat 
+{res}{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "/var/folders/y6/wpnmw2d96hv16y_6wrs5tjsm0000gn/T//SD07005.000000"
+{txt}
+{com}. logit injuries_cat day_num 
+
+{res}{txt}Iteration 0:{space 3}log likelihood = {res: -97959.82}  
+Iteration 1:{space 3}log likelihood = {res:-97959.765}  
+Iteration 2:{space 3}log likelihood = {res:-97959.765}  
+{res}
+{txt}Logistic regression{col 49}Number of obs{col 67}= {res}   168,064
+{txt}{col 49}LR chi2({res}1{txt}){col 67}= {res}      0.11
+{txt}{col 49}Prob > chi2{col 67}= {res}    0.7402
+{txt}Log likelihood = {res}-97959.765{txt}{col 49}Pseudo R2{col 67}= {res}    0.0000
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}injuries_cat{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      z{col 46}   P>|z|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 5}day_num {c |}{col 14}{res}{space 2} .0002085{col 26}{space 2} .0006288{col 37}{space 1}    0.33{col 46}{space 3}0.740{col 54}{space 4} -.001024{col 67}{space 3} .0014409
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2}-.9998626{col 26}{space 2} .0112895{col 37}{space 1}  -88.57{col 46}{space 3}0.000{col 54}{space 4} -1.02199{col 67}{space 3}-.9777355
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{com}. logit injuries_cat month_num 
+
+{res}{txt}Iteration 0:{space 3}log likelihood = {res: -97959.82}  
+Iteration 1:{space 3}log likelihood = {res:-97954.443}  
+Iteration 2:{space 3}log likelihood = {res:-97954.443}  
+{res}
+{txt}Logistic regression{col 49}Number of obs{col 67}= {res}   168,064
+{txt}{col 49}LR chi2({res}1{txt}){col 67}= {res}     10.76
+{txt}{col 49}Prob > chi2{col 67}= {res}    0.0010
+{txt}Log likelihood = {res}-97954.443{txt}{col 49}Pseudo R2{col 67}= {res}    0.0001
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}injuries_cat{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      z{col 46}   P>|z|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 3}month_num {c |}{col 14}{res}{space 2}  .005259{col 26}{space 2} .0016037{col 37}{space 1}    3.28{col 46}{space 3}0.001{col 54}{space 4} .0021157{col 67}{space 3} .0084022
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2}-1.031546{col 26}{space 2}  .012013{col 37}{space 1}  -85.87{col 46}{space 3}0.000{col 54}{space 4}-1.055091{col 67}{space 3}-1.008001
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{com}. logit injuries_cat weather_cat light_cat
+
+{res}{txt}Iteration 0:{space 3}log likelihood = {res: -97959.82}  
+Iteration 1:{space 3}log likelihood = {res:-97874.236}  
+Iteration 2:{space 3}log likelihood = {res:-97874.196}  
+Iteration 3:{space 3}log likelihood = {res:-97874.196}  
+{res}
+{txt}Logistic regression{col 49}Number of obs{col 67}= {res}   168,064
+{txt}{col 49}LR chi2({res}2{txt}){col 67}= {res}    171.25
+{txt}{col 49}Prob > chi2{col 67}= {res}    0.0000
+{txt}Log likelihood = {res}-97874.196{txt}{col 49}Pseudo R2{col 67}= {res}    0.0009
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}injuries_cat{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      z{col 46}   P>|z|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 1}weather_cat {c |}{col 14}{res}{space 2}-.0119098{col 26}{space 2} .0121055{col 37}{space 1}   -0.98{col 46}{space 3}0.325{col 54}{space 4}-.0356363{col 67}{space 3} .0118166
+{txt}{space 3}light_cat {c |}{col 14}{res}{space 2} .1554203{col 26}{space 2} .0118668{col 37}{space 1}   13.10{col 46}{space 3}0.000{col 54}{space 4} .1321618{col 67}{space 3} .1786787
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2}-1.184035{col 26}{space 2} .0228006{col 37}{space 1}  -51.93{col 46}{space 3}0.000{col 54}{space 4}-1.228723{col 67}{space 3}-1.139347
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{com}. 
+{txt}end of do-file
+
+{com}. do "/var/folders/y6/wpnmw2d96hv16y_6wrs5tjsm0000gn/T//SD07005.000000"
+{txt}
+{com}. tabulate hour_num 
+
+   {txt}hour_num {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          1 {c |}{res}      1,870        1.11        1.11
+{txt}          2 {c |}{res}      1,775        1.06        2.17
+{txt}          3 {c |}{res}      1,713        1.02        3.19
+{txt}          4 {c |}{res}      1,257        0.75        3.94
+{txt}          5 {c |}{res}      2,198        1.31        5.24
+{txt}          6 {c |}{res}      5,428        3.23        8.47
+{txt}          7 {c |}{res}     10,325        6.14       14.62
+{txt}          8 {c |}{res}      9,062        5.39       20.01
+{txt}          9 {c |}{res}      6,884        4.10       24.11
+{txt}         10 {c |}{res}      6,747        4.01       28.12
+{txt}         11 {c |}{res}      7,791        4.64       32.76
+{txt}         12 {c |}{res}      9,230        5.49       38.25
+{txt}         13 {c |}{res}      9,393        5.59       43.84
+{txt}         14 {c |}{res}     10,052        5.98       49.82
+{txt}         15 {c |}{res}     12,101        7.20       57.02
+{txt}         16 {c |}{res}     14,126        8.41       65.42
+{txt}         17 {c |}{res}     15,234        9.06       74.49
+{txt}         18 {c |}{res}     10,449        6.22       80.70
+{txt}         19 {c |}{res}      6,384        3.80       84.50
+{txt}         20 {c |}{res}      5,031        2.99       87.50
+{txt}         21 {c |}{res}      4,517        2.69       90.18
+{txt}         22 {c |}{res}      3,821        2.27       92.46
+{txt}         23 {c |}{res}      3,423        2.04       94.49
+{txt}         24 {c |}{res}      9,253        5.51      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}    168,064      100.00
+{txt}
+{com}. tabulate season
+
+     {txt}season {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          1 {c |}{res}     42,586       25.34       25.34
+{txt}          2 {c |}{res}     41,395       24.63       49.97
+{txt}          3 {c |}{res}     44,634       26.56       76.53
+{txt}          4 {c |}{res}     39,449       23.47      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}    168,064      100.00
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "/var/folders/y6/wpnmw2d96hv16y_6wrs5tjsm0000gn/T//SD07005.000000"
+{txt}
+{com}. logit rushHour injuries_cat
+
+{res}{txt}Iteration 0:{space 3}log likelihood = {res:-110013.02}  
+Iteration 1:{space 3}log likelihood = {res:-109963.91}  
+Iteration 2:{space 3}log likelihood = {res: -109963.9}  
+{res}
+{txt}Logistic regression{col 49}Number of obs{col 67}= {res}   168,064
+{txt}{col 49}LR chi2({res}1{txt}){col 67}= {res}     98.23
+{txt}{col 49}Prob > chi2{col 67}= {res}    0.0000
+{txt}Log likelihood = {res} -109963.9{txt}{col 49}Pseudo R2{col 67}= {res}    0.0004
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}    rushHour{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      z{col 46}   P>|z|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+injuries_cat {c |}{col 14}{res}{space 2}-.1139465{col 26}{space 2} .0115291{col 37}{space 1}   -9.88{col 46}{space 3}0.000{col 54}{space 4} -.136543{col 67}{space 3}-.0913499
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2}-.5361065{col 26}{space 2} .0059147{col 37}{space 1}  -90.64{col 46}{space 3}0.000{col 54}{space 4}-.5476991{col 67}{space 3}-.5245138
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{com}. 
+{txt}end of do-file
+
+{com}. do "/var/folders/y6/wpnmw2d96hv16y_6wrs5tjsm0000gn/T//SD07005.000000"
+{txt}
+{com}. logit injuries_cat rushHour 
+
+{res}{txt}Iteration 0:{space 3}log likelihood = {res: -97959.82}  
+Iteration 1:{space 3}log likelihood = {res:-97910.718}  
+Iteration 2:{space 3}log likelihood = {res:-97910.708}  
+Iteration 3:{space 3}log likelihood = {res:-97910.708}  
+{res}
+{txt}Logistic regression{col 49}Number of obs{col 67}= {res}   168,064
+{txt}{col 49}LR chi2({res}1{txt}){col 67}= {res}     98.23
+{txt}{col 49}Prob > chi2{col 67}= {res}    0.0000
+{txt}Log likelihood = {res}-97910.708{txt}{col 49}Pseudo R2{col 67}= {res}    0.0005
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}injuries_cat{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      z{col 46}   P>|z|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 4}rushHour {c |}{col 14}{res}{space 2}-.1139466{col 26}{space 2} .0115291{col 37}{space 1}   -9.88{col 46}{space 3}0.000{col 54}{space 4}-.1365432{col 67}{space 3}  -.09135
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2}-.9560332{col 26}{space 2} .0068192{col 37}{space 1} -140.20{col 46}{space 3}0.000{col 54}{space 4}-.9693987{col 67}{space 3}-.9426678
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+{com}. 
+{txt}end of do-file
+
+{com}. do "/var/folders/y6/wpnmw2d96hv16y_6wrs5tjsm0000gn/T//SD07005.000000"
+{txt}
+{com}. regress numberoffatalities rushHour
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}   168,051
+{txt}{hline 13}{c +}{hline 34}   F(1, 168049)    = {res}     0.04
+{txt}       Model {c |} {res} .000134562         1  .000134562   {txt}Prob > F        ={res}    0.8451
+{txt}    Residual {c |} {res}  592.36598   168,049   .00352496   {txt}R-squared       ={res}    0.0000
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}   -0.0000
+{txt}       Total {c |} {res} 592.366115   168,050   .00352494   {txt}Root MSE        =   {res} .05937
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}numberoffa~s{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      t{col 46}   P>|t|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 4}rushHour {c |}{col 14}{res}{space 2} .0000589{col 26}{space 2} .0003014{col 37}{space 1}    0.20{col 46}{space 3}0.845{col 54}{space 4}-.0005318{col 67}{space 3} .0006495
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} .0030968{col 26}{space 2} .0001813{col 37}{space 1}   17.08{col 46}{space 3}0.000{col 54}{space 4} .0027414{col 67}{space 3} .0034522
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. regress numberofinjuries rushHour
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}   168,064
+{txt}{hline 13}{c +}{hline 34}   F(1, 168062)    = {res}    85.68
+{txt}       Model {c |} {res} 49.5914379         1  49.5914379   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 97277.7895   168,062  .578820849   {txt}R-squared       ={res}    0.0005
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0005
+{txt}       Total {c |} {res} 97327.3809   168,063  .579112481   {txt}Root MSE        =   {res}  .7608
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}numberofin~s{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      t{col 46}   P>|t|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 4}rushHour {c |}{col 14}{res}{space 2}-.0357427{col 26}{space 2} .0038615{col 37}{space 1}   -9.26{col 46}{space 3}0.000{col 54}{space 4}-.0433112{col 67}{space 3}-.0281743
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} .3916953{col 26}{space 2} .0023235{col 37}{space 1}  168.58{col 46}{space 3}0.000{col 54}{space 4} .3871413{col 67}{space 3} .3962493
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. regress numberofinjuries min_num 
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}   168,064
+{txt}{hline 13}{c +}{hline 34}   F(1, 168062)    = {res}    77.99
+{txt}       Model {c |} {res} 45.1435213         1  45.1435213   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 97282.2374   168,062  .578847315   {txt}R-squared       ={res}    0.0005
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0005
+{txt}       Total {c |} {res} 97327.3809   168,063  .579112481   {txt}Root MSE        =   {res} .76082
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}numberofin~s{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      t{col 46}   P>|t|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 5}min_num {c |}{col 14}{res}{space 2} .0009049{col 26}{space 2} .0001025{col 37}{space 1}    8.83{col 46}{space 3}0.000{col 54}{space 4} .0007041{col 67}{space 3} .0011057
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} .3543022{col 26}{space 2} .0033333{col 37}{space 1}  106.29{col 46}{space 3}0.000{col 54}{space 4}  .347769{col 67}{space 3} .3608354
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. regress numberofinjuries hour_num 
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}   168,064
+{txt}{hline 13}{c +}{hline 34}   F(1, 168062)    = {res}    78.38
+{txt}       Model {c |} {res} 45.3723564         1  45.3723564   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 97282.0085   168,062  .578845953   {txt}R-squared       ={res}    0.0005
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0005
+{txt}       Total {c |} {res} 97327.3809   168,063  .579112481   {txt}Root MSE        =   {res} .76082
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}numberofin~s{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      t{col 46}   P>|t|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 4}hour_num {c |}{col 14}{res}{space 2} .0030002{col 26}{space 2} .0003389{col 37}{space 1}    8.85{col 46}{space 3}0.000{col 54}{space 4}  .002336{col 67}{space 3} .0036644
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} .3368233{col 26}{space 2} .0050868{col 37}{space 1}   66.22{col 46}{space 3}0.000{col 54}{space 4} .3268534{col 67}{space 3} .3467933
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "/var/folders/y6/wpnmw2d96hv16y_6wrs5tjsm0000gn/T//SD07005.000000"
+{txt}
+{com}. tab injuries_cat cars_cat, col
+{txt}
+{c TLC}{hline 19}{c TRC}
+{c |} Key{col 21}{c |}
+{c LT}{hline 19}{c RT}
+{c |}{space 5}{it:frequency}{col 21}{c |}
+{c |}{space 1}{it:column percentage}{col 21}{c |}
+{c BLC}{hline 19}{c BRC}
+
+injuries_c {c |}       cars_cat
+        at {c |}         0          1 {c |}     Total
+{hline 11}{c +}{hline 22}{c +}{hline 10}
+         0 {c |}{res}    24,617     98,135 {txt}{c |}{res}   122,752 
+           {txt}{c |}{res}     60.95      76.86 {txt}{c |}{res}     73.04 
+{txt}{hline 11}{c +}{hline 22}{c +}{hline 10}
+         1 {c |}{res}    15,772     29,540 {txt}{c |}{res}    45,312 
+           {txt}{c |}{res}     39.05      23.14 {txt}{c |}{res}     26.96 
+{txt}{hline 11}{c +}{hline 22}{c +}{hline 10}
+     Total {c |}{res}    40,389    127,675 {txt}{c |}{res}   168,064 
+           {txt}{c |}{res}    100.00     100.00 {txt}{c |}{res}    100.00 
+{txt}
+{com}. anova injuries_cat cars_cat 
+
+                         {txt}Number of obs = {res}   168,064    {txt}R-squared     ={res}  0.0235
+                         {txt}Root MSE      =   {res} .438521    {txt}Adj R-squared ={res}  0.0235
+
+                  {txt}Source {c |} Partial SS         df         MS        F    Prob>F
+              {hline 11}{c +}{hline 52}
+                   Model {c |} {res} 776.99522          1   776.99522   4040.53  0.0000
+                         {txt}{c |}
+                cars_cat {c |} {res} 776.99522          1   776.99522   4040.53  0.0000
+                         {txt}{c |}
+                Residual {c |} {res} 32318.365    168,062   .19230025  
+              {txt}{hline 11}{c +}{hline 52}
+                   Total {c |} {res}  33095.36    168,063   .19692235  
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. log close
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}/Users/aq/Documents/Homework/FinalProject/analysis_log.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res}10 Aug 2020, 22:21:08
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}
