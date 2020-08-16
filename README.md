@@ -57,7 +57,7 @@ We found that the relationship between Fatalities and Injuries was 0.82% between
 
 -----
 
-## Number of Injuries/Hit and Run by Time of Day
+## Number of Injuries // Hit and Runs by Time of Day
 
 ![dshbd_3](images/dshbd_3.png)
 
@@ -67,7 +67,7 @@ We found proof of something we already had suspected. The likelihood of an accid
 
 -----
 
-## Illumination and Weather Effects
+## Illumination // Weather Effects
 
 ![dshbd_4](images/dshbd_4.gif)
 
