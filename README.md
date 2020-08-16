@@ -30,8 +30,67 @@ Using Pandas we read in the individual csv files and found discrepancies in colu
 
 ------
 
-## How will we Present the Data?
+## Check out the Tableau Workbook
+You can find it [here](https://public.tableau.com/views/FinalProject_15976006144640/Dashboard1?:language=en&:display_count=y&publish=yes&:origin=viz_share_link)
 
-The idea is to run our data through a Machine Learning algorithm and then to load that into Tableau. We would then show our findings overlaid on a map of Nashville.
+----------
 
+## Machine Learning
 
+![dshbd_1](images/dshbd_1.png)
+
+Using logistic and linear regression machine learning algorithms, we were unable to find an accurate prediction of injuries or fatalities per accident. Unfortunately the amount of data we have is insufficient to create accurate predictions.
+
+-----
+
+## Accidents // Fatalities per Day
+
+![dshbd_2](images/dshbd_2.gif)
+
+Using Tableau we placed each recorded accident on a map of Nashville. The circles get larger when there are a larger number of injuries, and they go from green to red when the number of fatalities increases.
+
+When hovering over the day portion of the dashboard, it will filter the map to show the reported accidents. 
+
+You can toggle between the years to see common trouble spots. 
+
+We found that the relationship between Fatalities and Injuries was 0.82% between 2015 and 2019
+
+-----
+
+## Number of Injuries/Hit and Run by Time of Day
+
+![dshbd_3](images/dshbd_3.png)
+
+The third dashboard compares the number of accidents involving injuries and hit/run incidents. Year-by-year comparisons clearly show direct correlation between these two metrics, with higher numbers of accidents peaking during morning and evening rush hours. 
+
+We found proof of something we already had suspected. The likelihood of an accident is greatest during the daily rush hour periods
+
+-----
+
+## Illumination and Weather Effects
+
+![dshbd_4](images/dshbd_4.gif)
+
+The fourth dashboard addresses illumination and weather effects. Based on these metrics, the vast majority of accidents occurred during daylight hours when the weather was clear.
+
+-------
+
+## Accidents Overview by Zip Code
+
+![dshbd_5](images/dshbd_5.gif)
+
+The final dashboard shows the accident count by zip code. The areas in green had the fewest accidents, while the red areas had the most accidents. This trend was consistent during the entire period. Additionally, the majority of the accidents happened along Interstate 24, likely stemming from the population growth in those areas and the increased traffic.
+
+-----------
+
+## CONCLUSIONS 
+
+1)	We do not have enough data to accurately predict the number of accidents resulting in injuries or fatalities. The available data sets are unbalanced and are skewed toward accidents with no injuries
+
+2)	The number of fatalities were relatively low compared to total injuries (0.82%) between 2015 and 2019
+
+3)	The likelihood of an accident is greatest during the daily rush hour periods
+
+4)	Most accidents occurred during daylight hours when the weather was clear
+
+5)	Zip code areas along Interstate 24 were most prone to accidents from 2015 to 2019 due to population growth and increased traffic    
