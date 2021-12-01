@@ -1,6 +1,6 @@
 # MusicCityMayhem
-![Nashville Traffic](https://i2.wp.com/www.overdriveonline.com/files/2010/10/nashvilleUntitled-1.jpg?resize=480%2C316)
-##### img source https://perimeterpark.net/
+![Nashville Traffic](http://media.bizj.us/view/img/6370372/150609bibcommute3600238*750xx5747-3233-0-358.jpg)
+##### img source https://bizjournals.com/
 ## Dataset
 
 This dataset is compiled from the Metro Nashville Data website. Below you will find links to the datasets.
